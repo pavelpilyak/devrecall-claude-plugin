@@ -1,0 +1,19 @@
+{
+  "name": "devrecall",
+  "displayName": "DevRecall",
+  "description": "Give Claude Code memory of what you've shipped — commits, PRs, Jira tickets, Confluence docs, decisions, all searchable and citeable from inside your coding session.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Pavel Pilyak",
+    "email": "pavelpilyak@gmail.com"
+  },
+  "homepage": "https://devrecall.dev",
+  "repository": "https://github.com/pavelpilyak/devrecall-claude-plugin",
+  "license": "MIT",
+  "mcpServers": {
+    "devrecall": {
+      "command": "devrecall",
+      "args": ["mcp"]
+    }
+  }
+}

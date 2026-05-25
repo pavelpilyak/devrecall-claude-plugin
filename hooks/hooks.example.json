@@ -1,0 +1,15 @@
+{
+  "_comment": "Rename to hooks.json to enable. Auto-injects a brief of last-7-days activity at session start.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "devrecall standup --since 7d --no-llm 2>/dev/null || true"
+          }
+        ]
+      }
+    ]
+  }
+}

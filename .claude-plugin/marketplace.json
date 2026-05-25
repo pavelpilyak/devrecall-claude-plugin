@@ -1,0 +1,15 @@
+{
+  "name": "devrecall",
+  "owner": {
+    "name": "Pavel Pilyak",
+    "email": "pavelpilyak@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "devrecall",
+      "source": "./",
+      "description": "Give Claude Code memory of what you've shipped.",
+      "version": "0.1.0"
+    }
+  ]
+}
